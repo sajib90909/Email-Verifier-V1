@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700&display=swap');
+
+body {
+    background-color: rgba(223, 229, 249, 0.5);
+	font-family: 'Oswald', sans-serif;
+	    letter-spacing: 1px;
+
+}
+.custom-file{
+  overflow: hidden;
+}
+#wrapper {
+max-width: 1140px;
+    margin: 50px auto;
+    width: 100%;
+    padding: 15px;
+    background: rgb(251, 251, 251);
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0px 1px 5px 1px #516bf045;
+}
+
+nav .navbar-nav {
+	margin-right:20px
+	}
+
+
+nav .navbar-brand {
+    color: #516bf0 !important;
+}
+
+section {
+    margin: 30px 0;
+	    padding: 0 5px;
+}
+
+
+h1, .h1 {
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #dfe4f9;
+    line-height: 2em;
+	color:#516bf0;
+	    text-transform: uppercase;
+}
+.h2, h2 {
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-bottom: 20px;
+	    color: #229ed3;
+		    text-transform: lowercase;
+}
+
+page-h {
+
+}
+
+header nav .logo img {
+    margin-right: 10px;
+    max-width: 60px;
+}
+
+@media only screen and (max-width:460px) {
+	.mhide {
+		display:none;
+	}
+}
+
+.setting-status {
+	color:green;
+	}
+
+	.setting-box {
+		background-color:#343A40;margin-left:15px; padding:40px;margin-bottom:50px;
+	}
+
+section.email-check .found-email-list {
+	padding-top:0px;
+}
+
+section.email-check .found-email-tool {
+	padding:9px;padding-left:10px;
+}
+
+section.email-check .found-email-tool  .btn-warning {
+    color: #fff;
+    background: red;
+}
+
+section.email-check .found-email-result {
+  overflow:auto;height:206px;padding-top:0;
+}
+
+section.email-check .found-email-download {
+	display: inline-block;
+    margin-right: 10px;
+}
+
+section.email-check .found-email-download .start {
+font-size:30px;color:#EE800C;display:none;    margin-left: 10px;
+    margin-top: 5px;
+}
+section.email-check .found-email-download .end {
+    font-size: 30px;
+    color: #0EBE30;
+    display: none;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+section.email-check .start_store{
+margin-top: 5px;
+margin-right: 20px;
+font-size:30px;
+color:#000;
+display:none;
+}
+
+section.send-box .sent-status {
+    margin: 5px 0px 0px 0px;
+    background: #f3f3f3;
+    padding-left: 5%;
+    max-height: 220px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+   /* max-width: 300px;*/
+
+}
+
+form.export-csv-btn button {
+    border: 1px solid rgba(0, 123, 255, 0.16);
+    color: #516bf0 !important;
+    border-radius: 5px;
+    background: rgba(81, 107, 240, 0.15);
+}
+
+form.export-csv-btn button:hover {
+    background: #516bf0;
+    font-weight: bold;
+    color: #fff !important;
+    box-shadow: 0px 1px 5px 1px #516bf0;
+}
+form.export-csv-btn{
+  margin-bottom: 15px;
+}
+
+section.email-check .btn-box, section.email-check .btn-box {
+	padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+section.email-check .end_store{
+	margin-top: 5px;margin-right: 20px;margin-bottom: 0px;color:#0EBE30;display:none;
+}
+
+
+section .login-box {
+    background: #fff;
+    width: 100%;
+    box-shadow: -2px 6px 40px -12px rgba(79,79,79,1);
+    margin: 5% auto 0;
+    max-width: 400px;
+}
+
+section h1.login-logo {
+	font-size:1em;
+	margin:0;
+	border:none;
+	text-transform: capitalize;
+}
+
+section .login-box .log-in-btn {
+	width:100%;
+}
+
+
+.login-body-bg {
+    background: url(../img/bg2.png) center center/cover no-repeat!important;
+    height: 100%;
+    position: fixed;
+    margin: 0 !important;
+    max-width: 100% !important;
+		    border-radius: inherit !important;
+
+}
+.login-logo {
+	display: block;
+    text-align: center;
+	}
+
+	.login-logo img {
+    margin: 0 auto;
+    width: 60px;
+	    margin-right: 10px;
+}
+
+.int-success-alert {
+	text-align: center;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+section.install{
+	background: #F3F3F3;
+    padding: 100px;
+    margin: 0;
+}
+
+
+
+header {
+    background: rgba(0, 123, 255, 0.058823529411764705);
+}
+
+header nav {
+
+	background-color: #f8f9fa;
+    box-shadow: 0px 1px 5px rgba(128, 128, 128, 0.2);
+
+}
+
+
+header nav ul.navbar-nav li a {
+    padding: 8px 18px !important;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    background: rgba(81, 107, 240, 0.15);
+    margin: 0 12px;
+    border-radius: 5px;
+	font-weight:bold;
+	border: 1px solid rgba(0, 123, 255, 0.16);
+	color:#516bf0 !important;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+header nav ul.navbar-nav li.active a {
+    background: #516bf0;
+    font-weight: bold;
+    color: #fff !important;
+    box-shadow: 0px 1px 5px 1px #516bf0;
+}
+
+header nav ul.navbar-nav li a:hover {
+    background: #516bf0;
+    font-weight: bold;
+    color: #fff !important;
+    box-shadow: 0px 1px 5px 1px #516bf0;
+}
+
+header nav {
+	    padding: 15px 10px !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    flex-grow: inherit;.
+}
+
+.log-out-btn {
+	color: #ff0003;
+    border-color: #fd5e603d;
+    background: #fd5e6030;
+
+}
+.log-out-btn:hover {
+    background: #dc3545;
+    border-color: #fd5e603d;
+    box-shadow: 0px 1px 5px 1px #dc3545;
+}
+
+@media only screen and (min-width: 992px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
+.warn-box {
+    color: red;
+    background: #ececec;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 20px 0;
+    text-transform: lowercase;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+.footer-area {
+	    text-align: center;
+    font-size: 14px;
+}
+.form-control::placeholder {
+    font-size: 0.9em;
+}
+.form-control {
+    padding: 5px 15px;
+}
+@media only screen and (max-width:991px) {
+	header nav .desk {
+		display: none;
+	}
+}
+
+@media only screen and (min-width:992px) {
+	header nav .mobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:991px) {
+
+	header nav .navbar-nav {
+		margin:15px 0;
+	}
+
+	header nav ul.navbar-nav li a {
+    padding: 15px 18px !important;
+    text-transform: uppercase;
+    border-radius: inherit;
+    text-align: center;
+	border:1px solid rgba(0, 0, 0, 0.03);
+	    letter-spacing: 1px;
+	}
+	header .navbar-light .navbar-toggler {
+    align-items: center;
+    display: inline-flex;
+    background: #ebeefb;
+    color: #516bf0;
+	}
+
+
+	.navbar-light .navbar-toggler-icon {
+    margin-right: 5px;
+	}
+	header nav #navbarSupportedContent a.btn.btn-outline-success {
+    margin: 0 auto;
+    max-width: 220px;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #fff;
+    border-color: #dc3545;
+    background: #dc3545;
+    font-weight: 400;
+	}
+}
+
+@media only screen and (max-width:767px)  {
+
+	section.interface-btn .input-group {
+    margin-bottom: 30px;
+	}
+	.sec-div{
+      margin-bottom: 50px;
+    }
+}
+
+.text-area{
+     border: 0px none;
+     width: 100%;
+     padding: 20px;
+	 min-height:170px;
+  }
+  textarea:focus{
+    outline: none;
+  }
+  .txt{
+    border-bottom:1px solid black;
+    border-bottom-style: dotted;
+  }
+  .item-c{
+    float: right;
+    margin-bottom: 0;
+  }
+  .item{
+    display: inline-block;
+    margin-bottom: 0;
+  }
+
+@media only screen and (max-width:683px)  {
+  .email-listing-table{
+    overflow-x:scroll;
+  }
+  .listing-table{
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width:425px)  {
+
+  .step-one-btn,.step-two-btn{
+    padding:0.3rem;
+  }
+  section.email-check .btn-box{
+    padding:0.3rem;
+  }
+}
+.pagination-sec{
+  text-align: center;
+  margin-top: 20px;
+}
+.page-item{
+  display: inline-block;
+}
+.pagination-content{
+  display: inline-block;
+}
